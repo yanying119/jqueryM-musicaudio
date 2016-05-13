@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>音乐播放器</title>
+	<link href="favicon.ico" rel="shortcut icon">  
+	<link rel="stylesheet" href="./jquerymoblie/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="./css/css.css">
+	<script src="./js/jquery.min.js"></script>
+	<script src="./jquerymoblie/jquery.mobile-1.4.5.min.js"></script>
+	<script src="./js/music.js"></script>
+	<script src="./js/js.js"></script>
+</head>
+<body>
+	<div data-role="page" id="index" >
+		<div data-role="header"  id="header"  data-position="fixed">
+			<h3 id="musicName">诺专用音乐播放器</h3>
+		</div>
+		<div data-role="content" id="content" data-theme="e">
+			<ul data-role="listview" id="listview" data-inset="true" data-filter="true" data-filter-placeholder="搜索歌名">
+				
+			</ul>
+			<a href="" data-role="button" id="downmore">点击加载更多...</a>
+		</div>
+		<div data-role="footer"  id="footer"  data-position="fixed">
+			<div class="margin-center">
+				<a data-role="button" style="border:0" data-theme="b"  id="pre" data-icon="arrow-l" data-iconpos="left"></a>
+				<a data-role="button" style="border:0" data-theme="b"><audio id="audio" style="width:250px" src="" controls="controls">您的播放器不支持audio标签。请升级浏览器版本！！</audio></a>
+				<a data-role="button" style="border:0" data-theme="b" id="next"  data-icon="arrow-r" data-iconpos="right"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
