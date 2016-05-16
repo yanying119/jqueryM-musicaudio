@@ -14,3 +14,9 @@
 .margin-center audio {
 	margin:0 auto;
 }
+.ui-btn-icon-right {
+	padding-right:1.5em;
+}
+.ui-btn-icon-left {
+	padding-left:1.5em;
+}
